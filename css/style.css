@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+body{
+background: #25253f;
+}
+
+.navabr{
+    display: inline-flex;
+    text-align: center;
+    margin: 15px;
+}
+
+.navabr .logo{
+    font-size: 30px;
+    color: #fff;
+}
+
+  ul{
+   display: flex;
+   margin-left: 550px;
+padding: 10px;
+background: transparent;
+}
+
+.navabr ul{
+    font-size: 22px;
+}
+
+.navabr ul a{
+    color: #fff;
+    padding: 8px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.navabr ul a:hover{
+    color: #e9e4e4;
+}
+
+.navabr ul input{
+    font-size: 15px;
+    text-align: center;
+    border: none;
+    border-radius: 2px;
+    height: 35px;
+}
+
+
+.btn{
+    font-size: 12px;
+    background:#0d6efd;
+    width: 100px;
+    height: 40px;
+    padding: 12px 10px;
+    margin: 10px 12px;
+    border-radius: 3px;
+    font-weight: 800;
+}
+
+.btn:hover{
+    background: #5f5fee;
+}
+
+.content{
+    display: inline-flex;
+    margin-top: 10px;
+}
+.Reg{
+    width: 50%;
+    margin: 5%;
+}
+.Reg h2{
+    font-size: 25px;
+    color: #fff;
+}
+.Reg h2 span{
+    color: blue;
+}
+
+
+.Reg p{
+    font-size: 20px;
+    line-height:35px;
+    color: #fff;
+    font-weight: 400;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.content .Reg .btn{
+    color: #fff;
+    margin-left: 0;
+    padding: 14px 30px;
+}
+
+
+.pic{
+    margin: 5%;
+}
+
+.text{
+    text-align: center;
+}
+
+.text h2{
+    font-size: 30px;
+    color: #fff;
+}
+
+.text h4{
+    color: #fff;
+    margin-top: 8px;
+  
+}
+.learn{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 80px;
+}
+
+.course{
+    width: 250px;
+    height: 320px;
+    background: #fff;
+    border-radius: 5px;
+    text-align: center;
+}
+.course img{
+    margin-top: 10px;
+}
+
+.course h2{
+    font-size: 15px;
+    color: #25253f;
+    margin-top: 10px;
+}
+
+.course h4{
+    font-size: 10px;
+    color: #25253f;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.course .btn{
+    color: #fff;
+}
+.div{
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+    margin: 40px;
+}
+
+.about-info{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px;
+    margin-bottom: 50px;
+}
+.admission{
+    display: flex;
+}
+
+.board img{
+    width: 70%;
+    margin: 10%;
+}
+
+.experience{
+    margin: 4%;
+    line-height: 50px;
+    color: #fff;
+}
+
+.ip{
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
+
+.about{
+    background: #fff;
+    width: 300px;
+    height: 550px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.about img{
+    margin: 5px;
+    width: 250px;
+    height: 400px;
+}
+
+.icon i{
+    padding: 20px;
+    font-size: 20px;
+}
+
+.footer h2{
+    text-align: center;
+    color: #fff;
+    margin: 30px;
+}
